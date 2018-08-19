@@ -8,7 +8,7 @@ IDE used is **JetBrains IntelliJ IDEA Professional**.
 
 ## How to run
 
-Download a release [here](https://github.com/gotonode/snippets/releases/tag/v1)
+Download a release [here](https://github.com/gotonode/snippets/releases/tag/v1).
 
 Double-click the downloaded JAR -file. If that doesn't work, use this command:
 
