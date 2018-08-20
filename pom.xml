@@ -41,7 +41,6 @@
 	</dependencies>
 
 	<build>
-
 		<plugins>
 			<plugin>
 				<groupId>org.jacoco</groupId>
@@ -178,7 +177,6 @@
 				</configuration>
 			</plugin>
 		</plugins>
-
 	</build>
 
 	<reporting>
