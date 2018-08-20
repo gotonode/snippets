@@ -49,23 +49,8 @@
 				<version>0.8.1</version>
 				<configuration>
 					<excludes>
-						<exclude>io/github/gotonode/snippets/app/Main.*</exclude>
 						<exclude>io/github/gotonode/snippets/ui/**</exclude>
 						<exclude>io/github/gotonode/snippets/ui/*</exclude>
-
-						<exclude>sun/**</exclude>
-						<exclude>styles/**</exclude>
-						<exclude>org/**</exclude>
-						<exclude>oracle/**</exclude>
-						<exclude>netscape/**</exclude>
-						<exclude>META-INF/**</exclude>
-						<exclude>jdk/**</exclude>
-						<exclude>javafx/**</exclude>
-						<exclude>javax/**</exclude>
-						<exclude>java/**</exclude>
-						<exclude>fxml/**</exclude>
-						<exclude>com/**</exclude>
-						<exclude>antlr/**</exclude>
 					</excludes>
 				</configuration>
 				<executions>
