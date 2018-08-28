@@ -38,9 +38,9 @@ SnippetDao can be queried with method findOne(int id) to get a Snippet item back
 
 The required external library (for Maven) is SQLite. It is downloaded and updated via Maven and the version is defined in "pom.xml".
 
-## Example sequence diagram
+## Sequence diagram
 
-This is an example sequence diagram when the GUI has been loaded and the user double-clicks on a Snippet (its name) to open it up. All class/method calls are documented.
+This is a sequence diagram when the GUI has been loaded and the user double-clicks on a Snippet (its name) to open it up. All class/method calls are documented.
 
 ![Sequence diagram](https://github.com/gotonode/snippets/blob/master/docs/images/sequence_diagram.png)
 
@@ -124,7 +124,7 @@ Please note that the exclusion of the "Language" table was a deliberate choice (
 
 Snippets can be manually configured to use a user-specified database.
 
-To use this feature, create an empty file at the root of the JAR -file, and name it "config.properties".
+To use this feature, create an empty file at the root of the JAR -file, and name it "`config.properties`".
 
 Into that file, write the following:
 
