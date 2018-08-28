@@ -50,7 +50,7 @@ Having a Snippet open, you can click 'Save As' to save the current code into a c
 
 If you'd like to specify a database location of your own, here's how.
 
-Create an empty file and name it "config.properties". Inside, write the following:
+Create an empty file and name it "`config.properties`". Inside, write the following:
 
 ```text
 database=C:\path_to_database\databaseFile.db
