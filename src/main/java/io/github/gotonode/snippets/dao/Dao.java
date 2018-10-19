@@ -15,7 +15,7 @@ public interface Dao<T, Integer> {
 	 * Finds one (1) of the specified type.
 	 *
 	 * @param id The ID of the Snippet or SnippetData that you want.
-	 * @return The item  in question; null otherwise.
+	 * @return The item in question; null otherwise.
 	 * @throws SQLException Be careful.
 	 */
 	T findOne(Integer id) throws SQLException;
@@ -23,7 +23,7 @@ public interface Dao<T, Integer> {
 	/**
 	 * Finds all of the specified type.
 	 *
-	 * @return All of them  or an empty list.
+	 * @return All of them or an empty list.
 	 * @throws SQLException This can happen.
 	 */
 	List<T> findAll() throws SQLException;
