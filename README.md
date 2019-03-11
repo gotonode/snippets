@@ -1,4 +1,9 @@
 # Snippets
+*Snippets - a simple code snippet manager (student project)*
+
+| Travis CI |
+| :-------: |
+| [![Build Status](https://travis-ci.org/gotonode/snippets.svg?branch=master)](https://travis-ci.org/gotonode/snippets) |
 
 ![Snippets running](https://github.com/gotonode/snippets/blob/master/docs/images/app_02.png)
 
