@@ -1,0 +1,5 @@
+ignore:
+ - "**/app/Main.java"
+ - "**/app/StaticClass.java"
+ - "**/ui/FxmlController.java"
+ - "**/ui/MessageClass.java"
