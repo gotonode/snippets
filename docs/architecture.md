@@ -95,7 +95,7 @@ Please feel free to remove this database at any time. You can also browse its co
 
 Here are the CREATE TABLE statements for the database:
 
-```sqlite
+```sql
 CREATE TABLE IF NOT EXISTS "Snippet" (
 	id INTEGER PRIMARY KEY AUTOINCREMENT,
 	name VARCHAR(64) CHECK (name <> "") UNIQUE NOT NULL,
