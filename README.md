@@ -1,9 +1,9 @@
 # Snippets
 *Snippets - a simple code snippet manager (student project)*
 
-| Travis CI |
-| :-------: |
-| [![Build Status](https://travis-ci.org/gotonode/snippets.svg?branch=master)](https://travis-ci.org/gotonode/snippets) |
+| Travis CI | Codecov |
+| :-------: | :-----: |
+| [![Build Status](https://travis-ci.org/gotonode/snippets.svg?branch=master)](https://travis-ci.org/gotonode/snippets) | [![codecov](https://codecov.io/gh/gotonode/snippets/branch/master/graph/badge.svg)](https://codecov.io/gh/gotonode/snippets) |
 
 ![Snippets running](https://github.com/gotonode/snippets/blob/master/docs/images/app_02.png)
 
@@ -47,7 +47,7 @@ mvn clean package
 
 The optional *clean* argument ensures no collisions happen with existing files, but building will take a bit longer.
 
-> Output: "*target/snippets-1.0.jar*" (do not open the one that says "original" in it)
+Output: "*target/snippets-1.0.jar*" (do not open the one that says "original" in it)
 
 ### Tests
 
@@ -57,7 +57,7 @@ The optional *clean* argument ensures no collisions happen with existing files, 
 mvn test
 ```
 
-> (output will be printed to console)
+Output: (will be printed to console)
 
 ##### Code-coverage report with JaCoCo
 
@@ -65,7 +65,7 @@ mvn test
 mvn jacoco:report
 ```
 
-> Output: "*target/site/jacoco/index.html*"
+Output: "*target/site/jacoco/index.html*"
 
 ### Generate JavaDoc
 
@@ -75,7 +75,7 @@ JavaDoc has been written for all publicly-visible members.
 mvn javadoc:javadoc
 ```
 
-> Output: "*target/site/apidocs/index.html*"
+Output: "*target/site/apidocs/index.html*"
 
 ### Generate Checkstyle
 
@@ -85,4 +85,4 @@ Checkstyle checks can be manually created with this command:
 mvn jxr:jxr checkstyle:checkstyle
 ```
 
-> Output: "*target/site/checkstyle.xml*"
+Output: "*target/site/checkstyle.xml*"
