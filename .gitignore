@@ -1,11 +1,10 @@
 # Project
 /target/
-*.cmd
 /private/
 /.idea/
-*.iml
 /.vscode/
 /.settings/
+*.iml
 
 # Maven
 pom.xml.tag
